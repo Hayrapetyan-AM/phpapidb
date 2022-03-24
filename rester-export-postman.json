@@ -1,0 +1,154 @@
+{
+    "info": {
+        "name": "RESTer",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "rest",
+            "item": [
+                {
+                    "request": {
+                        "url": "http://test/api/create_subscription.php",
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"id\": 1,\n    \"workshop\": \"America Go\",\n    \"subscribed\": \"2022-01-03 22:02:03\"\n}"
+                        }
+                    },
+                    "id": "rester-11",
+                    "name": "createSubscribtion"
+                },
+                {
+                    "request": {
+                        "url": "http://test/api/create.php",
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"name\": \"Jhonathan Carpisa\",\n    \"email\": \"jhonathanca33\",\n    \"age\": \"33\",\n    \"designation\": \"Doctor\",\n    \"created\": \"2022-03-12 15:00:03\"\n}"
+                        }
+                    },
+                    "id": "rester-5",
+                    "name": "createUser"
+                },
+                {
+                    "request": {
+                        "url": "http://test/api/delete.php",
+                        "method": "DELETE",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"id\": 19\n}"
+                        }
+                    },
+                    "id": "rester-1",
+                    "name": "deleteUser"
+                },
+                {
+                    "request": {
+                        "url": "https://test/api/single_read.php?id=2",
+                        "method": "GET",
+                        "header": []
+                    },
+                    "id": "rester-4",
+                    "name": "readSingle"
+                },
+                {
+                    "request": {
+                        "url": "http://test/api/subscribtions.php",
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"id\": 2\n}"
+                        }
+                    },
+                    "id": "rester-12",
+                    "name": "readSubscriptions"
+                },
+                {
+                    "request": {
+                        "url": "http://test/api/read.php",
+                        "method": "GET",
+                        "header": []
+                    },
+                    "id": "rester-3",
+                    "name": "readUsers"
+                },
+                {
+                    "request": {
+                        "url": "http://test/api/update.php",
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n    \"id\": \"19\",\n    \"name\": \"Cloe Wizard\",\n    \"email\": \"cloewiz21\",\n    \"age\": \"21\",\n    \"designation\": \"Wizard\",\n    \"created\": \"2022-01-03 22:02:03\"\n}"
+                        }
+                    },
+                    "id": "rester-2",
+                    "name": "updateUser"
+                }
+            ]
+        },
+        {
+            "name": "WorkshopApi",
+            "item": [
+                {
+                    "request": {
+                        "url": "http://test/WorkshopApi/create.php",
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n\"name\": \"Dollaras\",\n\"owner\": \"Alexander Cooler\",\n\"created\": \"2002-02-19 23:00:01\"\n}"
+                        }
+                    },
+                    "id": "rester-8",
+                    "name": "create"
+                },
+                {
+                    "request": {
+                        "url": "http://test/WorkshopApi/delete.php",
+                        "method": "POST",
+                        "header": [],
+                        "body": {
+                            "mode": "raw",
+                            "raw": "{\n\"id\": 11 }"
+                        }
+                    },
+                    "id": "rester-9",
+                    "name": "delete"
+                },
+                {
+                    "request": {
+                        "url": "http://test/WorkshopApi/read.php",
+                        "method": "GET",
+                        "header": []
+                    },
+                    "id": "rester-6",
+                    "name": "read"
+                },
+                {
+                    "request": {
+                        "url": "http://test/WorkshopApi/single_read.php?id=1",
+                        "method": "GET",
+                        "header": []
+                    },
+                    "id": "rester-7",
+                    "name": "readSingle"
+                },
+                {
+                    "request": {
+                        "url": "http://test/WorkshopApi/update.php",
+                        "method": "POST",
+                        "header": []
+                    },
+                    "id": "rester-10",
+                    "name": "update"
+                }
+            ]
+        }
+    ]
+}
